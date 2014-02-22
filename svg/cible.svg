@@ -1,18 +1,21 @@
-<g xmlns="http://www.w3.org/2000/svg" class="cible" transform="translate(20,20) scale(4,4)">
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+	<g xmlns="http://www.w3.org/2000/svg" class="cible" transform="translate(20,20) scale(4,4)">
 
-	<circle cx="0" cy="0" r="5" fill="red" />
+		<circle cx="0" cy="0" r="5" fill="red" />
 
-	 <polyline fill="white" points="6,-1 6,1 -6,1 -6,-1">
-	   <animateTransform attributeName="transform" 
-	                     attributeType="XML"
-	                     id="mouvement1"
-	                     type="rotate" 
-	                     values="0 0 0; 360 0 0"
-	                     repeatCount="indefinite"
-	                     dur="8s"/>
-	 </polyline>
+		 <polyline fill="white" points="6,-1 6,1 -6,1 -6,-1">
+		   <animateTransform attributeName="transform" 
+							 attributeType="XML"
+							 id="mouvement1"
+							 type="rotate" 
+							 values="0 0 0; 360 0 0"
+							 repeatCount="indefinite"
+							 dur="8s"/>
+		 </polyline>
 
-	<circle cx="0" cy="0" r="3" fill="white" />
-	<circle cx="0" cy="0" r="1" fill="red" />
+		<circle cx="0" cy="0" r="3" fill="white" />
+		<circle cx="0" cy="0" r="1" fill="red" />
 
-</g>
+	</g>
+</svg>
