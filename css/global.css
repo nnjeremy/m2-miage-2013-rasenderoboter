@@ -1,0 +1,45 @@
+body{
+    font-family: "Helvetica";
+    overflow: hidden;
+}
+header{
+    margin-bottom: 20px;
+}
+
+header .title{
+    display: inline-block;
+    /*border: 2px solid black;
+    border-radius: 5px;*/
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+header .participants{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    /*border-radius: 5px;
+    border: 2px solid black;*/
+}
+
+footer{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer i{
+    display: block;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+
+
+
